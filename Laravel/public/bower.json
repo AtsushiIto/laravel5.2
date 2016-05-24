@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "description": "blog site testing...",
+  "main": "",
+  "authors": [
+    "cilenn"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "^4.1.1",
+    "jQuery": "^2.2.3"
+  }
+}
