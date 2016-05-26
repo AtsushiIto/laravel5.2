@@ -11,12 +11,32 @@
 |
 */
 
-// Common User 
+Route::get('/test', function () {
+
+	//return view('test');
+   
+	//return view('test', ['user_name' => 'かぼちゃ']);
+    
+	$num =[
+		"one","two","three","four",
+	];
+
+    return view('test', ['num' => $num, 'user_name' => 'かぼちゃ']);
+
+
+
+
+});
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
 
 Route::get('/', function () {
 
     return view('welcome');
 });
+
 
 
 
